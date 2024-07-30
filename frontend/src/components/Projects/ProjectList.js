@@ -4,6 +4,7 @@ import { ProjectContext } from '../../contexts/ProjectContext';
 import ProjectForm from './ProjectForm';
 import { AuthContext } from '../../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import './ProjectList.css';
 
 const ProjectList = () => {
     const navigate = useNavigate();
@@ -25,7 +26,7 @@ const ProjectList = () => {
     }, []);
 
     return (
-        <div>
+        <div className='project-list'>
             <div>
                 <button onClick={logoutAndRedirect}>
                     Logout

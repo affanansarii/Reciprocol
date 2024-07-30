@@ -1,0 +1,13 @@
+.register-page {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.register-page div {
+    margin-bottom: 20px;
+}
+
+.register-page button {
+    width: 100%;
+}

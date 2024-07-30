@@ -1,0 +1,29 @@
+.project-list {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.project-list ul {
+    padding: 0;
+}
+
+.project-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.project-list h3,
+.project-list p {
+    margin: 0;
+}
+
+.project-list button {
+    margin-left: 5px;
+}

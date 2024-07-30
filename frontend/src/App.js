@@ -1,7 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import Login from './components/Auth/Login';
-import { AuthContext } from './contexts/AuthContext';
 import Protected from './Protected/Protected';
 import ProjectList from './components/Projects/ProjectList';
 import ProjectForm from './components/Projects/ProjectForm';

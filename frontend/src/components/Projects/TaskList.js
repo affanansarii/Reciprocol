@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { ProjectContext } from '../../contexts/ProjectContext';
 import TaskForm from './TaskForm';
 import { useNavigate, useParams } from 'react-router-dom';
+import './TaskList.css';
 
 const TaskList = () => {
     const navigate = useNavigate();
@@ -18,7 +19,7 @@ const TaskList = () => {
     // const tasks = project ? project.tasks : [];
 
     return (
-        <div>
+        <div className='task-list'>
             <h2>Tasks</h2>
             <div>
                 <button onClick={() => navigate('/projects')}>

@@ -1,6 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { AuthContext } from '../../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import './Login.css';
 
 const Login = () => {
     const navigate = useNavigate();
@@ -35,7 +36,7 @@ const Login = () => {
     }
 
     return (
-        <>
+        <div className='login-page'>
             <div>{user ? 'Logged in' : 'not logged in'}</div>
             <form onSubmit={onSubmit}>
                 <div>
@@ -63,7 +64,7 @@ const Login = () => {
 
                 </div>
             </form>
-        </>
+        </div>
     );
 };
 
